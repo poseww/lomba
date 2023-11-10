@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    background: linear-gradient(90deg, #45434F, #3A3742, #312F38);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+}
+
+nav a{
+    justify-content: space-between;
+    letter-spacing: 10vh;
+}
+
+
+h1{
+    color: #D01D1D;
+    display: flex;
+    margin-top: 20vh;
+}
+
+p {
+    display: flex;
+    margin-top: 20vh;
+    flex-direction: row;
+    max-width: 50vh;
+}
